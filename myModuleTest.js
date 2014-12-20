@@ -4,6 +4,11 @@ myAccessors = (function() {
 
 	var buffer = "..................big";
 
+/**
+ * 
+ * @desc Kennwort verifizieren
+ * @returns {undefined}
+ */
 	var getData = function() {
 		console.log(data);
 	};
