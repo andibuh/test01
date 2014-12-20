@@ -9,6 +9,7 @@ $ergebnis = mysql_query($abfrage);
 if ( !$ergebnis ) die('MySQL-Fehler:') ;
 
 # Und noch einer
+# Hallo
 
 echo "<br><br>";
 echo "<form>";
