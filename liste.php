@@ -19,5 +19,5 @@ while($row = mysql_fetch_object($ergebnis))
    //echo "<tr><td> $row->FNR </td><td> $row->FUNKTION </td></tr>";
    }
    echo "</table></form>";
-   # Info
+   # Neue Info 
 ?>
