@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="src/jquery/jquery.js"></script>
+        <script src="src/coffee01.js"></script>
+        <script src="src/01.js"></script>
+        <link rel="stylesheet" href="css/basic.css">
+<!--
+        <script type="text/javascript">
+         
+            var fade = function (a) {
+                var level = 1;
+               var node = a;
+                var step = function () {
+                    var hex = level.toString(16);
+                    node.style.backgroundColor ='#FFFF' + hex + hex;
+                    if (level < 15) {
+                        level += 1;
+                        setTimeout(step, 100);
+                    }
+                    
+                };
+                
+                setTimeout(step, 100);
+            };
+            
+            fade($("body"));
+            
+      
+        </script>
+-->
+    </head>
+    <body>
+        
+        <form>
+            <input type="text" name="title" id="titel" class="in" size="80"><br>
+            <input type="text" name="author" id="author" class="in" size="80"><br>
+            <input type="text" name="taglist" id="taglist" class="in" size="80"><br>
+            <select multiple>
+  <option value="volvo">Volvo</option>
+  <option value="saab" selected>Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+            <textarea name ="info" id="info"  rows="10" cols="60">Alle körperlichen und sinnlichen Vorgänge sind unteilbar und nur verschiedene Ausdrucksformen eines einzigen einheitlichen Lebensprozesses. Deshalb ist es wichtig, sich seines Körpers bewusst zu werden und die in ihm ablaufenden energetischen Prozesse und Wechselwirkungen zwischen Körper und Seele zu verstehen. Sobald sich der Mensch seines Körpers wirklich bewusst wird, mit ihm «arbeitet», ihn «erlebt», gewinnt er ein völlig neues Verhältnis zu sich selbst und wird auch Angstzustände und Stress-Situationen überwinden. In seinem Basiswerk zeigt Alexander Lowen, wie wir Blockaden abbauen und neue Energie schöpfen können. Dieses Buch hat vielen Menschen Mut gemacht, sich mit ihrem eigenen Köpergefühl auseinanderzusetzen und die Abhängigkeit des seelischen Gleichgewichts vom körperlichen Wohlbefinden zu akzeptieren.
+            </textarea><br>
+            <button onclick="">Zurück</button>
+            <button onclick="">Weiter</button>
+            <button onclick="">Sichern</button>
+            <button onclick="">Abbrechen</button>
+            <button onclick="">Neuer Eintrag</button>
+            
+        </form>
+        <h1>TODO write content</h1>
+    </body>
+</html>
