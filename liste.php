@@ -6,11 +6,15 @@ require('db.php');
 $abfrage = "SELECT * FROM funktionen";
 $ergebnis = mysql_query($abfrage);
 
-if ( !$ergebnis ) die('MySQL-Fehler:') ; 
+if ( !$ergebnis ) die('MySQL-Fehler:') ;
+
+# Und noch einer
 
 echo "<br><br>";
 echo "<form>";
 echo "<table>";
+# Noch ein Kommentar
+
 while($row = mysql_fetch_object($ergebnis))
    {
     echo "<tr><td><input type='text' name='FNR' value='$row->FNR' size='10'></td>";
@@ -19,5 +23,7 @@ while($row = mysql_fetch_object($ergebnis))
    //echo "<tr><td> $row->FNR </td><td> $row->FUNKTION </td></tr>";
    }
    echo "</table></form>";
-   # Neue Info 
+   # Neue Info
+   # Weiterer Kommentar
+   
 ?>
